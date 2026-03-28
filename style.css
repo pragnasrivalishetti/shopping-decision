@@ -9,10 +9,15 @@ body {
     margin: auto;
 }
 
+h1 {
+    color: #333;
+}
+
 input {
     padding: 10px;
     width: 60%;
     border-radius: 5px;
+    border: 1px solid #ccc;
 }
 
 button {
@@ -21,6 +26,11 @@ button {
     color: white;
     border: none;
     border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
 }
 
 .card {
@@ -29,8 +39,13 @@ button {
     padding: 15px;
     border-radius: 10px;
     box-shadow: 0px 2px 8px rgba(0,0,0,0.2);
+    text-align: left;
 }
 
 .best {
     border: 2px solid green;
+}
+
+.lowest {
+    border: 2px solid orange;
 }
